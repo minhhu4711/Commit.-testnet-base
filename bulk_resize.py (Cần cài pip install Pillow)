@@ -1,0 +1,12 @@
+from PIL import Image
+import os
+
+def resize_images(folder, width, height):
+    for filename in os.listdir(folder):
+        if filename.endswith((".jpg", ".png")):
+            img = Image.open(os.path.join(folder, filename))
+            img = img.resize((width, height))
+            img.save(os.path.join(folder, "resized_" + filename))
+            print(f"Đã xử lý: {filename}")
+
+# resize_images("images/", 800, 600)
