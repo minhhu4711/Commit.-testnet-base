@@ -1,0 +1,11 @@
+{
+  "app_name": "MyPersonalTool",
+  "version": "1.0.0",
+  "theme": "dark",
+  "notifications": true,
+  "api_keys": {
+    "weather": "YOUR_API_KEY_HERE",
+    "crypto": "YOUR_API_KEY_HERE"
+  },
+  "max_users": 5
+}
