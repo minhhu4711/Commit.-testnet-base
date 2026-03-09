@@ -15,3 +15,8 @@
 
   /* Phiên bản hiện tại của phần mềm (theo chuẩn Semantic Versioning) */
   "version": "1.0.0",
+ /* Chế độ hiển thị giao diện (ví dụ: dark - tối, light - sáng) */
+  "theme": "dark",
+
+  /* Trạng thái bật/tắt thông báo (true: bật, false: tắt) */
+  "notifications": true,
