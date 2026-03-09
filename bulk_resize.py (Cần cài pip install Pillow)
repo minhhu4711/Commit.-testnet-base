@@ -27,3 +27,17 @@ def resize_images(folder, width, height):
             
             # Tạo đường dẫn đầy đủ đến file (ví dụ: "images/photo.jpg")
             img_path = os.path.join(folder, filename)
+ # 3. Mở tệp tin hình ảnh
+            img = Image.open(img_path)
+            
+            # 4. Thực hiện thay đổi kích thước ảnh theo (width, height)
+            # Lưu ý: resize() nhận vào một "tuple" nên cần có 2 dấu ngoặc đơn ((w, h))
+            img = img.resize((width, height))
+            
+            # 5. Lưu ảnh đã xử lý với tên mới (thêm tiền tố "resized_")
+            # Việc này giúp tránh ghi đè lên ảnh gốc của bạn
+            save_path = os.path.join(folder, "resized_" + filename)
+            img.save(save_path)
+            
+            # Thông báo trạng thái ra màn hình
+            print(f"Đã xử lý: {filename} -> {width}x{height}")
