@@ -17,3 +17,10 @@ CREATE TABLE Products (
     
     -- Cột category: Phân loại sản phẩm (ví dụ: Điện tử, Phụ kiện), tối đa 50 ký tự
     category VARCHAR(50),
+-- Cột price: Giá sản phẩm, kiểu số thập phân (DECIMAL) 
+    -- 10 là tổng số chữ số, 2 là số chữ số sau dấu phẩy (Ví dụ: 99999999.99)
+    price DECIMAL(10, 2),
+    
+    -- Cột stock_quantity: Số lượng hàng hiện có trong kho, kiểu số nguyên (INT)
+    stock_quantity INT
+);
