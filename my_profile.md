@@ -15,3 +15,5 @@
 🔭 I’m currently working on open source projects.
 <!-- Dòng thông tin về những gì bạn đang học hỏi (Biểu tượng mầm cây 🌱 tượng trưng cho sự phát triển) -->
 🌱 I’m currently learning Python and Blockchain.
+<!-- Lời mời gọi mọi người đặt câu hỏi về lĩnh vực chuyên môn của bạn -->
+💬 Ask me about anything related to Web Dev.
