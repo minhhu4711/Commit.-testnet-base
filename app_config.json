@@ -9,3 +9,9 @@
   },
   "max_users": 5
 }
+{
+  /* Tên của ứng dụng */
+  "app_name": "MyPersonalTool",
+
+  /* Phiên bản hiện tại của phần mềm (theo chuẩn Semantic Versioning) */
+  "version": "1.0.0",
