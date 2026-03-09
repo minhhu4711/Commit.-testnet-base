@@ -19,3 +19,11 @@ def resize_images(folder, width, height):
     :param folder: Đường dẫn đến thư mục chứa ảnh.
     :param width: Chiều rộng mới mong muốn.
     :param height: Chiều cao mới mong muốn.
+# 1. Lặp qua tất cả các tên tệp tin có trong thư mục được chỉ định
+    for filename in os.listdir(folder):
+        
+        # 2. Kiểm tra nếu tệp tin có đuôi là .jpg hoặc .png (tránh xử lý nhầm file rác)
+        if filename.endswith((".jpg", ".png")):
+            
+            # Tạo đường dẫn đầy đủ đến file (ví dụ: "images/photo.jpg")
+            img_path = os.path.join(folder, filename)
