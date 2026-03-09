@@ -10,3 +10,12 @@ def resize_images(folder, width, height):
             print(f"Đã xử lý: {filename}")
 
 # resize_images("images/", 800, 600)
+from PIL import Image  # Thư viện xử lý hình ảnh (Pillow)
+import os              # Thư viện làm việc với hệ điều hành (quản lý file, thư mục)
+
+def resize_images(folder, width, height):
+    """
+    Hàm thay đổi kích thước toàn bộ ảnh trong một thư mục.
+    :param folder: Đường dẫn đến thư mục chứa ảnh.
+    :param width: Chiều rộng mới mong muốn.
+    :param height: Chiều cao mới mong muốn.
