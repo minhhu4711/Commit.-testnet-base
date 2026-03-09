@@ -13,3 +13,5 @@
 # Hi there, I'm [Your Name] 👋
 <!-- Dòng thông tin về dự án hiện tại (Biểu tượng kính thiên văn 🔭 tượng trưng cho định hướng) -->
 🔭 I’m currently working on open source projects.
+<!-- Dòng thông tin về những gì bạn đang học hỏi (Biểu tượng mầm cây 🌱 tượng trưng cho sự phát triển) -->
+🌱 I’m currently learning Python and Blockchain.
