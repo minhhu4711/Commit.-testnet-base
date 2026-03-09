@@ -8,3 +8,7 @@ CREATE TABLE Products (
 
 INSERT INTO Products VALUES (1, 'Laptop Dell', 'Electronics', 1500.00, 10);
 INSERT INTO Products VALUES (2, 'Mouse Logitech', 'Accessories', 25.50, 50);
+Tạo bảng 'Products' để lưu trữ thông tin về các sản phẩm trong hệ thống
+CREATE TABLE Products (
+    -- Cột product_id: Mã định danh duy nhất cho mỗi sản phẩm, dùng làm Khóa chính (PRIMARY KEY)
+    product_id INT PRIMARY KEY,
