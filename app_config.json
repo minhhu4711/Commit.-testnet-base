@@ -20,3 +20,15 @@
 
   /* Trạng thái bật/tắt thông báo (true: bật, false: tắt) */
   "notifications": true,
+/* Đối tượng chứa các mã khóa API để kết nối với dịch vụ bên ngoài */
+  "api_keys": {
+    /* Mã API để lấy dữ liệu thời tiết */
+    "weather": "YOUR_API_KEY_HERE",
+    
+    /* Mã API để lấy dữ liệu giá tiền điện tử (crypto) */
+    "crypto": "YOUR_API_KEY_HERE"
+  },
+
+  /* Giới hạn số lượng người dùng tối đa được phép truy cập hệ thống */
+  "max_users": 5
+}
