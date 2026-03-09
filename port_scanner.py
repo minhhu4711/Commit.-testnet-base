@@ -33,3 +33,6 @@ def scan_port(ip, port):
     
     # Luôn đóng socket sau khi sử dụng để giải phóng tài nguyên hệ thống
     s.close()
+# Ví dụ gọi hàm để kiểm tra cổng 80 trên máy cục bộ (localhost)
+# Hãy bỏ dấu # ở dòng dưới để chạy thử
+# scan_port("127.0.0.1", 80)
