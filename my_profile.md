@@ -11,3 +11,5 @@
 - Docker 🐳
 <!-- Tiêu đề chính (Heading 1) - Lời chào hỏi và tên của bạn -->
 # Hi there, I'm [Your Name] 👋
+<!-- Dòng thông tin về dự án hiện tại (Biểu tượng kính thiên văn 🔭 tượng trưng cho định hướng) -->
+🔭 I’m currently working on open source projects.
