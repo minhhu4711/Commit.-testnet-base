@@ -41,3 +41,5 @@ def resize_images(folder, width, height):
             
             # Thông báo trạng thái ra màn hình
             print(f"Đã xử lý: {filename} -> {width}x{height}")
+# Ví dụ cách sử dụng:
+# resize_images("images/", 800, 600)
