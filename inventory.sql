@@ -12,3 +12,8 @@ Tạo bảng 'Products' để lưu trữ thông tin về các sản phẩm trong
 CREATE TABLE Products (
     -- Cột product_id: Mã định danh duy nhất cho mỗi sản phẩm, dùng làm Khóa chính (PRIMARY KEY)
     product_id INT PRIMARY KEY,
+-- Cột product_name: Tên của sản phẩm, cho phép lưu trữ chuỗi ký tự tối đa 100 ký tự
+    product_name VARCHAR(100),
+    
+    -- Cột category: Phân loại sản phẩm (ví dụ: Điện tử, Phụ kiện), tối đa 50 ký tự
+    category VARCHAR(50),
