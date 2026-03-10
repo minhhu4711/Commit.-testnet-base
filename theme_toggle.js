@@ -11,3 +11,6 @@ btn.addEventListener("click", function() {
 const btn = document.querySelector(".btn-toggle");
 // 2. Lắng nghe sự kiện "click" trên nút bấm đó
 btn.addEventListener("click", function() {
+// 3. Toggle (bật/tắt) class "dark-theme" trên thẻ <body>
+  // Nếu chưa có class này thì nó sẽ thêm vào, nếu có rồi thì nó sẽ xóa đi
+  document.body.classList.toggle("dark-theme");
