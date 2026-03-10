@@ -20,3 +20,9 @@
   
   /* Chiều rộng cố định của thẻ là 250 pixel */
   width: 250px;
+  
+/* Bo tròn 4 góc của thẻ với bán kính 10px */
+  border-radius: 10px;
+  
+  /* Khoảng cách từ nội dung bên trong cách lề thẻ 15px */
+  padding: 15px;
