@@ -43,3 +43,12 @@ steps:
         python -m pip install --upgrade pip
         # Cài đặt flake8 - một thư viện dùng để kiểm tra lỗi code Python
         pip install flake8
+# Bước 4: Thực hiện kiểm tra code (Linting) bằng flake8
+    - name: Lint with flake8
+      run: |
+        # flake8 . : Kiểm tra toàn bộ thư mục hiện tại
+        # --count : Hiển thị tổng số lỗi ở cuối bản tin
+        # --select=E9,F63,F7,F82 : Chỉ tập trung vào các lỗi nghiêm trọng (lỗi cú pháp, biến chưa định nghĩa...)
+        # --show-source : Hiển thị trực tiếp dòng code bị lỗi
+        # --statistics : Hiển thị bảng thống kê số lượng từng loại lỗi
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
