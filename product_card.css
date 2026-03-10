@@ -38,3 +38,8 @@
   /* Làm bóng đổ đậm hơn và rộng hơn để tạo cảm giác thẻ đang "bay" lên */
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
+/* Định dạng riêng cho lớp price (giá cả) */
+.price { 
+  color: grey;      /* Chữ màu xám */
+  font-size: 20px;   /* Kích thước chữ 20px */
+}
