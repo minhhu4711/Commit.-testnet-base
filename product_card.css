@@ -11,3 +11,7 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
 .price { color: grey; font-size: 20px; }
+.card {
+  /* Tạo bóng đổ: lệch ngang 0, lệch dọc 4px, độ mờ 8px, màu đen trong suốt 20% */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
