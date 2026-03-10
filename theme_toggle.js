@@ -14,3 +14,5 @@ btn.addEventListener("click", function() {
 // 3. Toggle (bật/tắt) class "dark-theme" trên thẻ <body>
   // Nếu chưa có class này thì nó sẽ thêm vào, nếu có rồi thì nó sẽ xóa đi
   document.body.classList.toggle("dark-theme");
+// 4. Mặc định khởi tạo biến theme là "light" (chế độ sáng)
+  let theme = "light";
