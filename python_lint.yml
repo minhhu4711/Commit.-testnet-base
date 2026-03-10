@@ -27,3 +27,6 @@ jobs:
   build:
     # Chạy công việc này trên máy chủ ảo sử dụng hệ điều hành Ubuntu mới nhất
     runs-on: ubuntu-latest
+steps:
+    # Bước 1: Sử dụng action có sẵn để sao chép (checkout) mã nguồn từ repo vào máy chủ ảo
+    - uses: actions/checkout@v2
