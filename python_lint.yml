@@ -35,3 +35,11 @@ steps:
       uses: actions/setup-python@v2
       with:
         python-version: '3.8' # Cài đặt phiên bản Python 3.8
+
+# Bước 3: Cài đặt các thư viện cần thiết
+    - name: Install dependencies
+      run: |
+        # Nâng cấp công cụ quản lý thư viện pip
+        python -m pip install --upgrade pip
+        # Cài đặt flake8 - một thư viện dùng để kiểm tra lỗi code Python
+        pip install flake8
