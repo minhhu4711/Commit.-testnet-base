@@ -21,3 +21,7 @@ btn.addEventListener("click", function() {
     // Nếu có, nghĩa là người dùng vừa bật chế độ tối, đổi giá trị biến thành "dark"
     theme = "dark";
   }
+// 6. Lưu giá trị "dark" hoặc "light" vào LocalStorage của trình duyệt
+  // Mục đích: Để khi người dùng load lại trang, trình duyệt vẫn nhớ họ đang dùng theme nào
+  localStorage.setItem("theme", theme);
+});
