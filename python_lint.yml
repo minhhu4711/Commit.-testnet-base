@@ -16,3 +16,14 @@ jobs:
     - name: Lint with flake8
       run: |
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+# Tên của quy trình tự động hóa này
+name: Python Linting
+
+# Quy trình này sẽ được kích hoạt mỗi khi có sự kiện 'push' (đẩy code lên repository)
+on: [push]
+
+jobs:
+  # Định nghĩa một công việc có tên là 'build'
+  build:
+    # Chạy công việc này trên máy chủ ảo sử dụng hệ điều hành Ubuntu mới nhất
+    runs-on: ubuntu-latest
