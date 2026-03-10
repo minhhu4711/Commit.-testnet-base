@@ -16,3 +16,8 @@ btn.addEventListener("click", function() {
   document.body.classList.toggle("dark-theme");
 // 4. Mặc định khởi tạo biến theme là "light" (chế độ sáng)
   let theme = "light";
+// 5. Kiểm tra xem thẻ <body> hiện tại có chứa class "dark-theme" hay không
+  if (document.body.classList.contains("dark-theme")) {
+    // Nếu có, nghĩa là người dùng vừa bật chế độ tối, đổi giá trị biến thành "dark"
+    theme = "dark";
+  }
