@@ -30,3 +30,8 @@ jobs:
 steps:
     # Bước 1: Sử dụng action có sẵn để sao chép (checkout) mã nguồn từ repo vào máy chủ ảo
     - uses: actions/checkout@v2
+# Bước 2: Thiết lập môi trường Python trên máy chủ ảo
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8' # Cài đặt phiên bản Python 3.8
