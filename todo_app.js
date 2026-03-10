@@ -35,3 +35,6 @@ function showTasks() {
     // 2. In danh sách nhiệm vụ ra màn hình console của trình duyệt
     console.log("Danh sách công việc:", tasks);
 }
+// Ví dụ cách sử dụng (bỏ dấu // để chạy thử):
+// addTask("Học GitHub"); // Thêm nhiệm vụ mới
+// showTasks();           // Xem toàn bộ danh sách
