@@ -17,3 +17,13 @@ function addTask(task) {
     // Vì LocalStorage chỉ lưu chuỗi (string), nên dùng JSON.parse để chuyển nó lại thành mảng (array).
     // Nếu chưa có dữ liệu (lần đầu chạy), sẽ mặc định lấy một mảng rỗng [].
     let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
+// 2. Thêm nhiệm vụ mới (biến task) vào cuối mảng tasks
+    tasks.push(task);
+
+    // 3. Lưu mảng tasks đã cập nhật ngược lại vào LocalStorage.
+    // Dùng JSON.stringify để chuyển mảng thành chuỗi văn bản thì LocalStorage mới lưu được.
+    localStorage.setItem("tasks", JSON.stringify(tasks));
+
+    // 4. Thông báo ra console để kiểm tra
+    console.log("Đã thêm nhiệm vụ: " + task);
+}
