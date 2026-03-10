@@ -7,3 +7,5 @@ btn.addEventListener("click", function() {
   }
   localStorage.setItem("theme", theme);
 });
+// 1. Chọn phần tử nút bấm có class là "btn-toggle" từ HTML
+const btn = document.querySelector(".btn-toggle");
