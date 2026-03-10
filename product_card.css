@@ -15,3 +15,8 @@
   /* Tạo bóng đổ: lệch ngang 0, lệch dọc 4px, độ mờ 8px, màu đen trong suốt 20% */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   
+/* Tạo hiệu ứng mượt mà (0.3 giây) khi thay đổi các thuộc tính (như lúc hover) */
+  transition: 0.3s;
+  
+  /* Chiều rộng cố định của thẻ là 250 pixel */
+  width: 250px;
