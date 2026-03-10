@@ -27,3 +27,11 @@ function addTask(task) {
     // 4. Thông báo ra console để kiểm tra
     console.log("Đã thêm nhiệm vụ: " + task);
 }
+// Hàm dùng để hiển thị danh sách nhiệm vụ đã lưu
+function showTasks() {
+    // 1. Lấy dữ liệu từ LocalStorage và chuyển về dạng mảng
+    let tasks = JSON.parse(localStorage.getItem("tasks"));
+
+    // 2. In danh sách nhiệm vụ ra màn hình console của trình duyệt
+    console.log("Danh sách công việc:", tasks);
+}
