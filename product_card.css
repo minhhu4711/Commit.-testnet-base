@@ -26,3 +26,10 @@
   
   /* Khoảng cách từ nội dung bên trong cách lề thẻ 15px */
   padding: 15px;
+
+/* Căn giữa toàn bộ nội dung (chữ, ảnh) bên trong thẻ */
+  text-align: center;
+  
+  /* Sử dụng font chữ không có chân (sans-serif) cho hiện đại */
+  font-family: sans-serif;
+}
