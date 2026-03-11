@@ -29,6 +29,4 @@
     "crypto": "YOUR_API_KEY_HERE"
   },
 
-  /* Giới hạn số lượng người dùng tối đa được phép truy cập hệ thống */
-  "max_users": 5
-}
+
