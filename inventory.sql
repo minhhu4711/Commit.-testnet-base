@@ -30,5 +30,3 @@ CREATE TABLE Products (
 -- Chèn sản phẩm thứ nhất: Laptop Dell, thuộc nhóm Điện tử, giá 1500.00, còn 10 máy
 INSERT INTO Products VALUES (1, 'Laptop Dell', 'Electronics', 1500.00, 10);
 
--- Chèn sản phẩm thứ hai: Chuột Logitech, thuộc nhóm Phụ kiện, giá 25.50, còn 50 con
-INSERT INTO Products VALUES (2, 'Mouse Logitech', 'Accessories', 25.50, 50);
