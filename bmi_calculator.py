@@ -30,5 +30,4 @@ def calculate_bmi(weight, height):
 w = float(input("Nhập cân nặng (kg): "))
 h = float(input("Nhập chiều cao (m): "))
 # 4. Gọi hàm và hiển thị kết quả
-# Sử dụng f-string (f"...") để chèn trực tiếp kết quả của hàm vào trong chuỗi văn bản
-print(f"Chỉ số BMI của bạn là: {calculate_bmi(w, h)}")
+
