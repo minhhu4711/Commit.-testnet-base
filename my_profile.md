@@ -23,7 +23,4 @@
 <!-- Tiêu đề phụ (Heading 2) liệt kê các kỹ năng thế mạnh -->
 ## Top Skills
 
-<!-- Danh sách các kỹ năng kèm biểu tượng minh họa để hồ sơ sinh động hơn -->
-- Python 🐍
-- JavaScript 🚀
-- Docker 🐳
+
