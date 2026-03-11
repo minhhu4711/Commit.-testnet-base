@@ -31,6 +31,4 @@ def scan_port(ip, port):
         # Nếu trả về mã lỗi khác 0, thường là do cổng bị đóng hoặc bị tường lửa chặn
         print(f"Cổng {port} đang ĐÓNG")
     
-    # Luôn đóng socket sau khi sử dụng để giải phóng tài nguyên hệ thống
-    s.close()
-
+   
