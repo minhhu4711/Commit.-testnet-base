@@ -51,4 +51,4 @@ steps:
         # --select=E9,F63,F7,F82 : Chỉ tập trung vào các lỗi nghiêm trọng (lỗi cú pháp, biến chưa định nghĩa...)
         # --show-source : Hiển thị trực tiếp dòng code bị lỗi
         # --statistics : Hiển thị bảng thống kê số lượng từng loại lỗi
-        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+    
