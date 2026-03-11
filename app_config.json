@@ -25,8 +25,6 @@
     /* Mã API để lấy dữ liệu thời tiết */
     "weather": "YOUR_API_KEY_HERE",
     
-    /* Mã API để lấy dữ liệu giá tiền điện tử (crypto) */
-    "crypto": "YOUR_API_KEY_HERE"
-  },
+   
 
 
