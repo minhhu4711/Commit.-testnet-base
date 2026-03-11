@@ -20,7 +20,6 @@
 <!-- Thông tin liên hệ (Biểu tượng hộp thư 📫), hãy thay phần trong ngoặc bằng link thật của bạn -->
 📫 How to reach me: [Email/Social Link]
 
-<!-- Tiêu đề phụ (Heading 2) liệt kê các kỹ năng thế mạnh -->
-## Top Skills
+
 
 
