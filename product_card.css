@@ -33,9 +33,5 @@
   /* Sử dụng font chữ không có chân (sans-serif) cho hiện đại */
   font-family: sans-serif;
 }
-/* Hiệu ứng xảy ra khi người dùng di chuột (hover) vào thẻ */
-.card:hover {
-  /* Làm bóng đổ đậm hơn và rộng hơn để tạo cảm giác thẻ đang "bay" lên */
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
-}
+
 
