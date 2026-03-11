@@ -29,5 +29,5 @@ def calculate_bmi(weight, height):
 # input() sẽ nhận dữ liệu từ bàn phím dưới dạng chuỗi, nên cần ép kiểu về float
 w = float(input("Nhập cân nặng (kg): "))
 h = float(input("Nhập chiều cao (m): "))
-# 4. Gọi hàm và hiển thị kết quả
+
 
