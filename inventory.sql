@@ -27,6 +27,4 @@ CREATE TABLE Products (
 -- Chèn dữ liệu mẫu vào bảng Products
 -- Lưu ý: Khi dùng cú pháp này, thứ tự giá trị phải khớp hoàn toàn với thứ tự cột đã định nghĩa ở trên
 
--- Chèn sản phẩm thứ nhất: Laptop Dell, thuộc nhóm Điện tử, giá 1500.00, còn 10 máy
-INSERT INTO Products VALUES (1, 'Laptop Dell', 'Electronics', 1500.00, 10);
 
