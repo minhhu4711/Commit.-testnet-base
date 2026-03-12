@@ -26,6 +26,5 @@ def scan_port(ip, port):
     # connect_ex trả về mã lỗi thay vì ném ra một ngoại lệ (Exception)
     # Nếu kết quả trả về là 0, nghĩa là kết nối thành công (Cổng đang MỞ)
     if s.connect_ex((ip, port)) == 0:
-        print(f"Cổng {port} đang MỞ")
-   
+      
    
