@@ -29,7 +29,5 @@ function addTask(task) {
 }
 // Hàm dùng để hiển thị danh sách nhiệm vụ đã lưu
 function showTasks() {
-    // 1. Lấy dữ liệu từ LocalStorage và chuyển về dạng mảng
-    let tasks = JSON.parse(localStorage.getItem("tasks"));
 
 
