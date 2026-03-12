@@ -27,7 +27,6 @@ function addTask(task) {
     // 4. Thông báo ra console để kiểm tra
     console.log("Đã thêm nhiệm vụ: " + task);
 }
-// Hàm dùng để hiển thị danh sách nhiệm vụ đã lưu
-function showTasks() {
+
 
 
