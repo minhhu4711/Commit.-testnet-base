@@ -17,7 +17,7 @@
 🌱 I’m currently learning Python and Blockchain.
 <!-- Lời mời gọi mọi người đặt câu hỏi về lĩnh vực chuyên môn của bạn -->
 💬 Ask me about anything related to Web Dev.
-<!-- Thông tin liên hệ (Biểu tượng hộp thư 📫), hãy thay phần trong ngoặc bằng link thật của bạn -->
+
 
 
 
