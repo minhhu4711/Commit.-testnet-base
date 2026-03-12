@@ -27,8 +27,5 @@ def scan_port(ip, port):
     # Nếu kết quả trả về là 0, nghĩa là kết nối thành công (Cổng đang MỞ)
     if s.connect_ex((ip, port)) == 0:
         print(f"Cổng {port} đang MỞ")
-    else:
-        # Nếu trả về mã lỗi khác 0, thường là do cổng bị đóng hoặc bị tường lửa chặn
-        print(f"Cổng {port} đang ĐÓNG")
-    
+   
    
