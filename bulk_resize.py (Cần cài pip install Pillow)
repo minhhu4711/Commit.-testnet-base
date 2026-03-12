@@ -29,11 +29,7 @@ def resize_images(folder, width, height):
             img_path = os.path.join(folder, filename)
  # 3. Mở tệp tin hình ảnh
             img = Image.open(img_path)
-            
-            # 4. Thực hiện thay đổi kích thước ảnh theo (width, height)
-            # Lưu ý: resize() nhận vào một "tuple" nên cần có 2 dấu ngoặc đơn ((w, h))
-            img = img.resize((width, height))
-            
+
       
            
 
