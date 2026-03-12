@@ -23,8 +23,6 @@ CREATE TABLE Products (
     
     -- Cột stock_quantity: Số lượng hàng hiện có trong kho, kiểu số nguyên (INT)
     stock_quantity INT
-);
--- Chèn dữ liệu mẫu vào bảng Products
--- Lưu ý: Khi dùng cú pháp này, thứ tự giá trị phải khớp hoàn toàn với thứ tự cột đã định nghĩa ở trên
+
 
 
