@@ -42,6 +42,6 @@ steps:
         # Nâng cấp công cụ quản lý thư viện pip
         python -m pip install --upgrade pip
         # Cài đặt flake8 - một thư viện dùng để kiểm tra lỗi code Python
-        pip install flake8
+ 
 
     
