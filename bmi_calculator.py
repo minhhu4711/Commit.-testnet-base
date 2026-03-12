@@ -27,7 +27,6 @@ def calculate_bmi(weight, height):
 # 3. Phần nhập liệu từ người dùng
 # Sử dụng float() để cho phép nhập số thập phân (ví dụ: 1.75 hoặc 65.5)
 # input() sẽ nhận dữ liệu từ bàn phím dưới dạng chuỗi, nên cần ép kiểu về float
-w = float(input("Nhập cân nặng (kg): "))
-h = float(input("Nhập chiều cao (m): "))
+
 
 
