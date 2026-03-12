@@ -21,8 +21,7 @@ CREATE TABLE Products (
     -- 10 là tổng số chữ số, 2 là số chữ số sau dấu phẩy (Ví dụ: 99999999.99)
     price DECIMAL(10, 2),
     
-    -- Cột stock_quantity: Số lượng hàng hiện có trong kho, kiểu số nguyên (INT)
-    stock_quantity INT
+
 
 
 
