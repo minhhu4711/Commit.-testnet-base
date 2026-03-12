@@ -34,10 +34,6 @@ def resize_images(folder, width, height):
             # Lưu ý: resize() nhận vào một "tuple" nên cần có 2 dấu ngoặc đơn ((w, h))
             img = img.resize((width, height))
             
-            # 5. Lưu ảnh đã xử lý với tên mới (thêm tiền tố "resized_")
-            # Việc này giúp tránh ghi đè lên ảnh gốc của bạn
-            save_path = os.path.join(folder, "resized_" + filename)
-            img.save(save_path)
-            
+      
            
 
